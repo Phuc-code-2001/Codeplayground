@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+    <title>Training everywhere</title>
+
+    <link href="/public/css/bootstrap-tour.css" rel="stylesheet" type="text/css" />
+    <link href="/public/css/slick.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/public/css/home.min.css">
+    <link href="/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/common.min.css">
+    <link rel="stylesheet" href="/public/css/site.css">
+    
+    <script src="/public/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/public/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/public/js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/public/js/anchor.min.js" type="text/javascript"></script>
+    <script src="/public/js/moment.min.js" type="text/javascript"></script>
+    <script src="/public/js/moment-with-locales.min.js" type="text/javascript"></script>
+    <script src="/public/js/common.min.js" type="text/javascript"></script>
+    
+    <script src="/public/js/header.js"></script>
+
+</head>
+<body class="home">
+    <header class="navbar site-header">
+        <div class="wrap-site-logo">
+            <a title="Trang chủ" href="/">
+            <img alt="FCoder" class="site-logo" src="">
+            <img alt="FCoder" class="site-logo-mobile" src="">
+            </a>
+        </div>
+        <div class="wrap-right-header">
+            <input type="checkbox" id="mobile-menu-cb" name="mobile-menu-cb">
+            <label class="hamburger-button" for="mobile-menu-cb">
+                <span class="hamburger-icon"></span>
+            </label>
+            <label class="hamburger-menu-mask" for="mobile-menu-cb"></label>
+            <nav class="site-menu">
+                <ul class="menu menu-main-menu">
+                    <li><a href="/training">Training</a>
+                    </li>
+                    <li><a href="/fights">Fights</a>
+                    </li>
+                    <li><a href="/challenge">Challenge</a>
+                    </li>
+                    <li><a href="/discussion">Discussion</a>
+                    </li>
+                    <li><a href="/leaderboard">Leaders</a>
+                    </li>
+                    <li><a href="/sharing">Chia sẻ</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <ul class="site-user-menu">
+                <li class="dropdown notify">
+                    <a title="Notifications" id="notify" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="cl-icon-bell-1"></i>
+                        <span id="notification-count" class="" style="display: none;"></span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <ul id="list-notify">
+                            <li class="header">Notifications</li>
+                        </ul>
+                        <div id="view-all-notify"><a href="/notification">View all</a></div>
+                    </div>
+                </li>
+                <li class="dropdown header-user-profile" id="user-profile">
+                    <a href="#" class="dropdown-toggle btn--profile" title="username" onclick="show_hide_dropdownProfile()">
+                        <img alt="user-avatar" class="btn--img" src="">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-user">
+                        <li><a href="/">My information</a></li>
+                        <li><a href="/">My profile</a></li>
+                        <li><a href="/">My class</a></li>
+                        <li><a href="/">Tasks management</a></li>
+                        <li><a href="/">Sign out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+</body>
+</html>
